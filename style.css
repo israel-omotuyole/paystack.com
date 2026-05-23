@@ -328,5 +328,161 @@ a {
   transform: translateX(4px);
 }
 
+/* Section Wrapper */
+.paystack-api-section {
+  width: 100%;
+  padding: 60px 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main Layout Container */
+.api-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  gap: 6%; /* Controls space between text and image areas */
+  align-items: center; /* Vertically centers content for clean alignment */
+  margin-top: 7rem;
+  padding: 0 2rem 0 2rem;
+}
+
+/* Left Side: Content Area */
+.api-content-area {
+  width: 50%; /* Gives the core text block optimal reading width across laptops */
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Typography Blocks */
+.text-block-1 h2 {
+  font-size: 2.5rem;
+  color: #011b33; /* Paystack Dark Navy */
+  line-height: 1.25;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.text-block-1 p {
+  font-size: 1.25rem;
+  color: #011b33; /* Muted Slate Grey */
+  line-height: 1.6;
+}
+
+/* API Features Stack */
+.api-features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Spacing between list rows */
+  list-style: none;
+  margin-left: -2.5rem;
+}
+
+/* Clean list styling using pseudo-elements for the checkmark */
+.feature-item {
+  display: flex;
+  align-items: flex-start; /* Aligns checkmark cleanly with multi-line items */
+  font-size: 1.2rem;
+  color: #011b33;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.feature-item::before {
+  content: "✓";
+  color: #37d67a; /* Paystack Accent Green */
+  font-weight: bold;
+  margin-right: 12px;
+  font-size: 16px;
+  flex-shrink: 0; /* Prevents the checkmark from shrinking on small screens */
+}
+
+/* Bottom Quickstart Link */
+.quickstart-link {
+  display: inline-block;
+  color: #37d67a;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+.quickstart-link:hover {
+  color: #28a75a;
+  transform: translateX(4px);
+}
+
+/* Right Side: Image Area */
+.api-image-area {
+  width: 50%; /* Takes up balanced proportional right space */
+  display: flex;
+  justify-content: center;
+}
+
+/* Dynamic container representing your right-side artwork */
+.image-placeholding {
+  width: 100%;
+  height: 100%;
+}
+
+.fraud-detection {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 7rem;
+    padding: 0 2rem 0 2rem;
+}
+
+.fraud-detection-image-area {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.fraud-detection-content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    /* margin-top: -2rem; */
+}
+
+.text-block-2 {
+    font-size: 3.6rem;  
+    color: #011b33;
+    line-height: 1.25;
+    margin-bottom: 10px;  
+}
+
+.text-block-3 {
+    font-size: 3.6rem;
+    color: #011b33;
+    line-height: 1.25;
+    margin-bottom: 10px;    
+}
+
+.text-block-title {
+    font-size: 2.5rem;
+    color: #011b33;
+    line-height: 1.25;
+    margin-bottom: 16px;
+    font-weight: 700;    
+}
+
+.text-block-description {
+    color: #011b33;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.video-placeholder {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 
 
